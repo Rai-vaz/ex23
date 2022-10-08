@@ -7,6 +7,7 @@
     <title>Tabelas</title>
     <style>
         table{
+            position: relative;
             border: 3px solid rgb(11, 3, 65);
             border-collapse: collapse;
             font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +15,13 @@
 
         tbody > tr:nth-child(even){
             background-color: rgb(207, 201, 201);
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -2px;
+            background-color: grey;
+
         }
 
         caption{
@@ -77,10 +85,12 @@
         <caption>População das Unidades Federativas</caption>
 
         <thead>
-            <th scope="col">Posição</th>
-            <th scope="col">Estado</th>
-            <th scope="col">População</th>
-            <th scope="col">Idade</th>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">Idade</th>
+            </tr>
         </thead>
         <tr>
             <td>1</td>
@@ -106,11 +116,44 @@
             <td class="num">404.434.432</td>
             <td>284 anos</td>
         </tr>
+        <tr>
+            <td>5</td>
+            <td class="destaque">São Paulo</td>
+            <td class="num">50.345.254</td>
+            <td>300 anos</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Minas Gerais</td>
+            <td class="num">41.654.568</td>
+            <td class="destaque">200 anos</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Bahia</td>
+            <td class="num">23.568.412</td>
+            <td>150 anos</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Rio Grande do sul</td>
+            <td class="num">404.434.432</td>
+            <td>284 anos</td>
+        </tr>
         <tfoot>
             <th scope="row">Total de Habitantes</th>
             <td colspan="3" class="num"><strong id="total">89.556.452</strong></td>
         </tfoot>
     </table>
-    
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque, id perferendis nostrum error obcaecati minima quod deserunt! Voluptate aliquam fugiat perspiciatis sint non, tempora porro. Ut iure quis doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus impedit odit ullam? In vitae incidunt facilis, molestiae dolorem reiciendis aliquam fuga eveniet ratione aspernatur exercitationem aperiam necessitatibus quis nemo debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque, id perferendis nostrum error obcaecati minima quod deserunt! Voluptate aliquam fugiat perspiciatis sint non, tempora porro. Ut iure quis doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus impedit odit ullam? In vitae incidunt facilis, molestiae dolorem reiciendis aliquam fuga eveniet ratione aspernatur exercitationem aperiam necessitatibus quis nemo debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque, id perferendis nostrum error obcaecati minima quod deserunt! Voluptate aliquam fugiat perspiciatis sint non, tempora porro. Ut iure quis doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus impedit odit ullam? In vitae incidunt facilis, molestiae dolorem reiciendis aliquam fuga eveniet ratione aspernatur exercitationem aperiam necessitatibus quis nemo debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque, id perferendis nostrum error obcaecati minima quod deserunt! Voluptate aliquam fugiat perspiciatis sint non, tempora porro. Ut iure quis doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus impedit odit ullam? In vitae incidunt facilis, molestiae dolorem reiciendis aliquam fuga eveniet ratione aspernatur exercitationem aperiam necessitatibus quis nemo debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque, id perferendis nostrum error obcaecati minima quod deserunt! Voluptate aliquam fugiat perspiciatis sint non, tempora porro. Ut iure quis doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus impedit odit ullam? In vitae incidunt facilis, molestiae dolorem reiciendis aliquam fuga eveniet ratione aspernatur exercitationem aperiam necessitatibus quis nemo debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque, id perferendis nostrum error obcaecati minima quod deserunt! Voluptate aliquam fugiat perspiciatis sint non, tempora porro. Ut iure quis doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus impedit odit ullam? In vitae incidunt facilis, molestiae dolorem reiciendis aliquam fuga eveniet ratione aspernatur exercitationem aperiam necessitatibus quis nemo debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque, id perferendis nostrum error obcaecati minima quod deserunt! Voluptate aliquam fugiat perspiciatis sint non, tempora porro. Ut iure quis doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus impedit odit ullam? In vitae incidunt facilis, molestiae dolorem reiciendis aliquam fuga eveniet ratione aspernatur exercitationem aperiam necessitatibus quis nemo debitis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque, id perferendis nostrum error obcaecati minima quod deserunt! Voluptate aliquam fugiat perspiciatis sint non, tempora porro. Ut iure quis doloribus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus impedit odit ullam? In vitae incidunt facilis, molestiae dolorem reiciendis aliquam fuga eveniet ratione aspernatur exercitationem aperiam necessitatibus quis nemo debitis.</p>
+
 </body>
 </html>
