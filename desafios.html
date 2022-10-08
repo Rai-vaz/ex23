@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios Mesclando Celulas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+      
+        caption, tfoot{
+            background-color: rgb(137, 134, 134);
+            padding: 10px;
+            color: white;
+            text-transform: uppercase;
+        }
+        td{
+            text-align: center;
+            border: 2px solid black;
+            padding: 20px 30px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Células</h1>
+
+    <table>
+        <thead>
+            <caption>Desafio 1</caption>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="2">3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td rowspan="2">10</td>
+                <td colspan="2">11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="4">Desafio Concluído</td></tr>
+        </tfoot>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <caption>Desafio 2</caption>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">A</td>
+                <td rowspan="4">B</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="4">C</td>
+                <td>D</td>
+                <td>E</td>
+                <TD>F</TD>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>P</td>
+                <td>i</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>V</td>
+            </tr>
+            <tr>
+                <td colspan="4">N</td>
+            
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="5">Desafio Concluído</td></tr>
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
