@@ -10,6 +10,9 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        table{
+            border-collapse: collapse;
+        }
       
         caption, tfoot{
             background-color: rgb(137, 134, 134);
@@ -17,7 +20,7 @@
             color: white;
             text-transform: uppercase;
         }
-        td{
+        td, th{
             text-align: center;
             border: 2px solid black;
             padding: 20px 30px;
@@ -100,7 +103,54 @@
             <tr><td colspan="5">Desafio Concluído</td></tr>
         </tfoot>
     </table>
+    <br>
+<!--Exercício 3-->
+    <table>
+        <caption>Exercício Tabela Filmes</caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="2">Filmes / Séries</th>
+            </tr>
 
-    
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>  
+                <td>Julia</td>
+                <td>Vingadore</td>
+                <td>Eu sou a lenda</td>
+            </tr>             
+           <tr>
+                <td>Ana Claudi</td>
+                <td>Wix</td>
+                <td>The Hundread</td>
+           </tr>
+           <tr>
+                <td>Maria Eduarda</td>
+                <td>As Branquelas</td>
+                <td>Vingadores</td>
+           </tr>
+           <tr>
+                <th rowspan="3">Homens</th>
+                <td>João Carlos</td>
+                <td>A Grande Família</td>
+                <td>Friends</td>
+           </tr>
+           <tr>
+                <td>Pedro</td>
+                <td>Homen Aranha</td>
+                <td>O Regaste</td>
+           </tr>
+           <tr>
+                <td>Oscar</td>
+                <td>Terremoto</td>
+                <td>Pânico no Avião</td>
+                
+           </tr>
+        </tbody>
+
+    </table>
 </body>
 </html>
