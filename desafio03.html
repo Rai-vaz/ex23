@@ -16,6 +16,11 @@
             border-collapse: collapse;
         }
 
+        caption{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
         th,td{
             padding: 10px 25px;
             border: 1px solid black;
@@ -36,48 +41,54 @@
         .cprofi{
             background-color: rgb(235, 64, 64);
         }
+
+        .container{
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <caption>Exercício de Tabela</caption>
-        <colgroup>
-            <col class="cnome">
-            <col class="csexo">
-            <col class="cidade">
-            <col class="cprofi">
-        </colgroup>
-        <tr>
-            <th>Nome</th>
-            <th>Sexo</th>
-            <th>Idade</th>
-            <th>Profissão</th>
-        </tr>
-        <tr>
-            <td>André</td>
-            <td>M</td>
-            <td>45</td>
-            <td>Jornalista</td>
-        </tr>
-        <tr>
-            <td>João</td>
-            <td>M</td>
-            <td>23</td>
-            <td>Programador</td>
-        </tr>
-        <tr>
-            <td>Maria</td>
-            <td>F</td>
-            <td>29</td>
-            <td>Médica</td>
-        </tr>
-        <tr>
-            <td>Lúcia</td>
-            <td>F</td>
-            <td>34</td>
-            <td>Professora</td>
-        </tr>
-    </table>
+      <div class="container">
+        <table>
+            <caption>Exercício de Tabela</caption>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprofi">
+            </colgroup>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>André</td>
+                <td>M</td>
+                <td>45</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>M</td>
+                <td>23</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>29</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Lúcia</td>
+                <td>F</td>
+                <td>34</td>
+                <td>Professora</td>
+            </tr>
+        </table>
+    </div>
     
 </body>
 </html>
