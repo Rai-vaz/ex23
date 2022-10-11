@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroups</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        th,td{
+            padding: 10px 25px;
+            border: 1px solid black;
+        }
+
+        .cnome{
+            background-color: antiquewhite;
+        }
+
+        .csexo{
+            background-color: rgb(196, 152, 99);
+        }
+
+        .cidade{
+            background-color: aliceblue;
+        }
+
+        .cprofi{
+            background-color: rgb(235, 64, 64);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Exercício de Tabela</caption>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofi">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>André</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Lúcia</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Professora</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
